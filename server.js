@@ -91,7 +91,7 @@ Server Start
 --------------------------------
 */
 
-const PORT = process.env.PORT || https://min-back.onrender.com;
+const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(
